@@ -11,8 +11,9 @@ def burbuja(A):
 					#print(A)
 	return A
 
-#programa principal
-A=[3,6,0,8,10,7,5,4]
+#programa principaL
+print("ARREGLO DESORDENADO:")
+A=[6,5,3,1,8,7,2,4]
 print(A)
-burbuja(A)
-
+print("ARREGLO ORDENADO: \n", burbuja(A))
+input("presione enter para continuar")

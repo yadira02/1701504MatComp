@@ -13,11 +13,9 @@ def insercion(arreglo):
 			else:
 				break
 	return arreglo
-
-#Programa principal
->>> A=[2,6,9,3,0]
->>> A
-[2, 6, 9, 3, 0]
->>> insercion(A)
-[0, 2, 3, 6, 9]
->>> 
+#programa principaL
+print("ARREGLO DESORDENADO:")
+A=[3,6,8,2,0,7,9,4]
+print(A)
+print("ARREGLO ORDENADO: \n", insercion(A))
+input("presione enter para continuar")

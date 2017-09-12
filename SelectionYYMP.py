@@ -12,11 +12,9 @@ def selection(arr):
 			arr[i]=arr[val]
 			arr[val]=aux
 	return arr
-
-#Programa principal
->>> A=[5,7,3,1,0,9]
->>> A
-[5, 7, 3, 1, 0, 9]
->>> selection(A)
-[0, 1, 3, 5, 7, 9]
->>> 
+#programa principaL
+print("ARREGLO DESORDENADO:")
+A=[3,7,9,4,0,5,1]
+print(A)
+print("ARREGLO ORDENADO: \n", selection(A))
+input("presione enter para continuar")
